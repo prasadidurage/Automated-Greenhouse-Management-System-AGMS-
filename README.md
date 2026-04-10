@@ -2,8 +2,6 @@
 
 A cloud-native, microservice-based platform for modern agriculture. This system automates greenhouse management by connecting to external IoT sensors, processing real-time telemetry, and triggering actions to maintain ideal growing conditions.
 
-![System Architecture](https://via.placeholder.com/800x400.png?text=AGMS+Microservices+Architecture) 
-*(Note: Replace the above URL with an actual architecture diagram if you have one)*
 
 ## 📁 Project Structure
 
@@ -50,9 +48,7 @@ Because microservices depend on the infrastructure, you **must** start them in t
 
 ### ✅ Service Registry Verification
 Once all microservices are running normally, they will register themselves with Eureka. 
-
-![Eureka Dashboard Status](docs/eureka-dashboard.png)
-*(Above Image: Eureka dashboard showing API-GATEWAY, AUTOMATION-SERVICE, CONFIG-SERVER, CROP-SERVICE, SENSOR-SERVICE, ZONE-SERVICE status UP)*
+<img width="1280" height="668" alt="image" src="https://github.com/user-attachments/assets/edb69a17-3f27-4721-ba2d-292b55b5f243" />
 
 ## 🔐 Security & Synchronous Communication
 - **JWT Authorization:** Secured via API Gateway. All external calls require a valid `Bearer Token` header.
